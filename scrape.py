@@ -26,5 +26,6 @@ for article in articles:
         summary = None
         video = None
 
+
 csv_writer.writerow([headline, summary, video])
 csv_file.close()
